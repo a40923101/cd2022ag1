@@ -92,7 +92,7 @@ g.es("admin pelican Github 執行完畢")
 <t tx="leo.20220415215423.1">@language md
 ---
 Title: W8 cd2022ag1
-Date: 2020-04-15 11:00
+Date: 2022-04-15 11:00
 Category: Misc
 Tags: 2022SpringCD
 Slug: midterm.html
@@ -104,6 +104,11 @@ Author: 40923108
 &lt;!-- PELICAN_END_SUMMARY --&gt;
 
 W8
+
+ test
+ 
+
+
 </t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
