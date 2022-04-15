@@ -57,7 +57,7 @@
 <v t="leo.20180115115910.1"><vh>2020</vh>
 <v t="leo.20180423103639.1"><vh>2022 Spring CD 課程</vh>
 <v t="leo.20180423103656.1"><vh>@edit 20200813.md</vh></v>
-<v t="leo.20220415215423.1"><vh>@W8</vh></v>
+<v t="leo.20220415215423.1"><vh>@W8 cd2022ag1</vh></v>
 </v>
 </v>
 </v>
@@ -96,7 +96,7 @@ Date: 2022-04-15 11:00
 Category: Misc
 Tags: 2022SpringCD
 Slug: midterm.html
-Author: 40923108
+Author: yen
 ---
 
 各組依照零件檔案, 將組員分為三組, 分別以 Solvespace, NX (12, 1980 或 2008) 及 Onshape, 完成各零件工程圖與組合圖後, 將 uarm 組合件轉為 STL 格式後轉入 CoppeliaSim, 並安排以 GUI Slider 方式控制前三軸作動. 各組員需將零組件繪製過程與 CoppeliaSim 操控流程及心得
