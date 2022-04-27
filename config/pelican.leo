@@ -105,23 +105,7 @@ Author: 40923108
 
 W8 uarm
 ----
- 以 Solvespace, NX(12, 1980或 2008)及Onshape完成[零件繪製]
- 
- 將[零件組裝]完成後呈[組合圖]
- 
- 將 uarm組合件轉為STL格式後[轉入CoppeliaSim]
- 
- 並以GUI Silder控制[三軸作動]。
- 
- [零件繪製]:https://youtu.be/HqSpqLlonV0
- [零件組裝]:https://youtu.be/01XXtnYs8VE
- [組合圖]:https://a40923101.github.io/cd2022/images/50.png
- [三軸作動]:https://youtu.be/GIU5IX0Pxf4
- 
- 
- 
- 
-
+ testtttt
 
 </t>
 <t tx="yen.20170108171605.1"></t>
