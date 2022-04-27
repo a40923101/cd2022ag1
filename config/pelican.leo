@@ -92,20 +92,34 @@ g.es("admin pelican Github 執行完畢")
 <t tx="leo.20220415215423.1">@language md
 ---
 Title: W8 cd2022ag1
-Date: 2022-04-15 11:00
+Date: 2022-04-27 11:00
 Category: Misc
 Tags: 2022SpringCD
 Slug: midterm.html
-Author: yen
+Author: 40923108
 ---
 
 各組依照零件檔案, 將組員分為三組, 分別以 Solvespace, NX (12, 1980 或 2008) 及 Onshape, 完成各零件工程圖與組合圖後, 將 uarm 組合件轉為 STL 格式後轉入 CoppeliaSim, 並安排以 GUI Slider 方式控制前三軸作動. 各組員需將零組件繪製過程與 CoppeliaSim 操控流程及心得
 
 &lt;!-- PELICAN_END_SUMMARY --&gt;
 
-W8
-
- test
+W8 uarm
+----
+ 以 Solvespace, NX(12, 1980或 2008)及Onshape完成[零件繪製]
+ 
+ 將[零件組裝]完成後呈[組合圖]
+ 
+ 將 uarm組合件轉為STL格式後[轉入CoppeliaSim]
+ 
+ 並以GUI Silder控制[三軸作動]。
+ 
+ [零件繪製]:https://youtu.be/HqSpqLlonV0
+ [零件組裝]:https://youtu.be/01XXtnYs8VE
+ [組合圖]:https://a40923101.github.io/cd2022/images/50.png
+ [三軸作動]:https://youtu.be/GIU5IX0Pxf4
+ 
+ 
+ 
  
 
 
