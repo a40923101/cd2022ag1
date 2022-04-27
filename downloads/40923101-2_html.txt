@@ -126,3 +126,163 @@ var winkVideoData = {
 </div>
 <div class="winkVideoPlayOverlayClass"></div>
 </div>
+<p>使用blog來記錄自己每週製作的作業</p>
+<p><img caption="false" height="281" src="https://a40923101.github.io/cd2022/images/43.png" width="500"></p>
+<p>編輯好後對<span>local-blog</span>按下<span>右鍵</span>，在按下<span>Goto Script</span></p>
+<p><img caption="false" height="281" src="https://a40923101.github.io/cd2022/images/40.png" width="500"></p>
+<p>將那段網址複製下來</p>
+<p><img caption="false" height="281" src="https://a40923101.github.io/cd2022/images/41.png" width="500"></p>
+<p>在小黑窗打上</p>
+<p><span style="background-color: #cc99ff;">cd tmp</span></p>
+<p><span style="background-color: #cc99ff;">cd cd2022&nbsp;</span></p>
+<p><span style="background-color: #cc99ff;">pelican markdown -o blog -s local_publishconf.py</span></p>
+<p><img caption="false" height="281" src="https://a40923101.github.io/cd2022/images/34.png" width="500"></p>
+<p>都好了後可以推看看倉儲，檢查有沒有完成</p>
+<p><img caption="false" height="281" src="https://a40923101.github.io/cd2022/images/42.png" width="500"></p>
+<p>每個組員分配不同的繪圖軟體分別是 Solvespace、NX12、NX1980、NX2008 與 Onshape</p>
+<p>我是利用<span>NX12來</span>繪製出Pick and Place demo範例所需的零組件</p>
+<p>將零件組裝好後</p>
+<p>利用Coppeliasim模擬機械運轉</p>
+<p>目前零件畫好也也組裝完畢</p>
+<p>研究程式碼讓機械手臂可以正常運轉</p>
+<p><img caption="false" height="281" src="https://a40923101.github.io/cd2022/images/44.png" width="500"></p>
+<p></p>
+<script>// <![CDATA[
+var winkVideoData = {
+dataVersion: 1,
+frameRate: 20,
+buttonFrameLength: 10,
+buttonFrameOffset: 5,
+frameStops: {
+},
+};
+// ]]></script>
+<div class="winkVideoContainerClass"><video width="960" height="540" class="winkVideoClass" data-dirname="/static" data-varname="winkVideoData" video="">
+<source src="https://a40923101.github.io/cd2022/downloads/wink23.mp4" type="video/mp4" /></video>
+<div class="winkVideoOverlayClass"></div>
+<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
+<div class="winkVideoControlBarProgressLeftClass"></div>
+<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
+<div class="winkVideoControlBarProgressRightClass"></div>
+<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
+<div class="winkVideoControlBarProgressThumbClass"></div>
+</div>
+<div class="winkVideoPlayOverlayClass"></div>
+</div>
+<p>這週的作業跟期中考一起製作uarm機械</p>
+<p>組員分別以Solvespace和NX及Onshape完成零件繪製後</p>
+<p>這是我們繪製的uarm各零件圖</p>
+<p>總共有64個零件，我繪製了46個零件，剩下的由小組組員完成</p>
+<p></p>
+<script>// <![CDATA[
+var winkVideoData = {
+dataVersion: 1,
+frameRate: 20,
+buttonFrameLength: 10,
+buttonFrameOffset: 5,
+frameStops: {
+},
+};
+// ]]></script>
+<div class="winkVideoContainerClass"><video width="960" height="540" class="winkVideoClass" data-dirname="/static" data-varname="winkVideoData" video="">
+<source src="https://a40923101.github.io/cd2022/downloads/wink24.mp4" type="video/mp4" /></video>
+<div class="winkVideoOverlayClass"></div>
+<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
+<div class="winkVideoControlBarProgressLeftClass"></div>
+<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
+<div class="winkVideoControlBarProgressRightClass"></div>
+<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
+<div class="winkVideoControlBarProgressThumbClass"></div>
+</div>
+<div class="winkVideoPlayOverlayClass"></div>
+</div>
+<p>將畫好的零件按照老師給的組合立體圖組合出來</p>
+<p>再來存成<span>STL檔就可以轉入CoppeliaSim</span></p>
+<p><span><img caption="false" height="281" src="https://a40923101.github.io/cd2022/images/50.png" width="500"></span></p>
+<p><span><img caption="false" height="281" src="https://a40923101.github.io/cd2022/images/51.png" width="500"></span></p>
+<p><span><img caption="false" height="281" src="https://a40923101.github.io/cd2022/images/52.png" width="500"></span></p>
+<script>// <![CDATA[
+var winkVideoData = {
+dataVersion: 1,
+frameRate: 20,
+buttonFrameLength: 10,
+buttonFrameOffset: 5,
+frameStops: {
+},
+};
+// ]]></script>
+<div class="winkVideoContainerClass"><video width="960" height="540" class="winkVideoClass" data-dirname="/static" data-varname="winkVideoData" video="">
+<source src="https://a40923101.github.io/cd2022/downloads/wink25.mp4" type="video/mp4" /></video>
+<div class="winkVideoOverlayClass"></div>
+<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
+<div class="winkVideoControlBarProgressLeftClass"></div>
+<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
+<div class="winkVideoControlBarProgressRightClass"></div>
+<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
+<div class="winkVideoControlBarProgressThumbClass"></div>
+</div>
+<div class="winkVideoPlayOverlayClass"></div>
+</div>
+<p>將uarm組合件存為STL檔後轉入CoppeliaSim</p>
+<p><img caption="false" height="281" src="https://a40923101.github.io/cd2022/images/45.png" width="500"></p>
+<p></p>
+<script>// <![CDATA[
+var winkVideoData = {
+dataVersion: 1,
+frameRate: 20,
+buttonFrameLength: 10,
+buttonFrameOffset: 5,
+frameStops: {
+},
+};
+// ]]></script>
+<div class="winkVideoContainerClass"><video width="960" height="540" class="winkVideoClass" data-dirname="/static" data-varname="winkVideoData" video="">
+<source src="https://a40923101.github.io/cd2022/downloads/wink26.mp4" type="video/mp4" /></video>
+<div class="winkVideoOverlayClass"></div>
+<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
+<div class="winkVideoControlBarProgressLeftClass"></div>
+<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
+<div class="winkVideoControlBarProgressRightClass"></div>
+<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
+<div class="winkVideoControlBarProgressThumbClass"></div>
+</div>
+<div class="winkVideoPlayOverlayClass"></div>
+</div>
+<p>以GUI Slider方式控制前三軸作動</p>
+<p><img caption="false" height="281" src="https://a40923101.github.io/cd2022/images/46.png" width="500"></p>
+<p><img caption="false" height="281" src="https://a40923101.github.io/cd2022/images/47.png" width="500"></p>
+<p></p>
+<script>// <![CDATA[
+var winkVideoData = {
+dataVersion: 1,
+frameRate: 20,
+buttonFrameLength: 10,
+buttonFrameOffset: 5,
+frameStops: {
+},
+};
+// ]]></script>
+<div class="winkVideoContainerClass"><video width="960" height="540" class="winkVideoClass" data-dirname="/static" data-varname="winkVideoData" video="">
+<source src="https://a40923101.github.io/cd2022/downloads/wink27.mp4" type="video/mp4" /></video>
+<div class="winkVideoOverlayClass"></div>
+<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
+<div class="winkVideoControlBarProgressLeftClass"></div>
+<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
+<div class="winkVideoControlBarProgressRightClass"></div>
+<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
+<div class="winkVideoControlBarProgressThumbClass"></div>
+</div>
+<div class="winkVideoPlayOverlayClass"></div>
+</div>
+<p>在繪圖過程中我們兩個人一組</p>
+<p>一個負責查詢零件尺寸另一個繪圖</p>
+<p>我們分工合作畫了40幾個零件</p>
+<p>在畫螺絲時有很多類似的形狀</p>
+<p>當時就在想有沒有更快的方法可以繪製相似零件的方法</p>
+<p>這方面可以尋找一些資訊看有沒有迅速便利的方法</p>
+<p>接著組合圖沒有太大的問題</p>
+<p>按照老師給的組合圖細心的組合是沒問題的</p>
+<p>比較麻煩的是CoppeliaSim控制前三軸作動</p>
+<p>需要仔細將連桿連接</p>
+<p>這方面花費較多的時間去研究</p>
+<p>最終還是有完成三軸作動</p>
