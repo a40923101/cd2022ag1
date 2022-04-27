@@ -99,13 +99,14 @@ Slug: midterm.html
 Author: 40923108
 ---
 
-各組依照零件檔案, 將組員分為三組, 分別以 Solvespace, NX (12, 1980 或 2008) 及 Onshape, 完成各零件工程圖與組合圖後, 將 uarm 組合件轉為 STL 格式後轉入 CoppeliaSim, 並安排以 GUI Slider 方式控制前三軸作動. 各組員需將零組件繪製過程與 CoppeliaSim 操控流程及心得
+各組依照零件檔案, 將組員分為三組, 分別以 Solvespace, NX (12, 1980 或 2008) 及 Onshape, 完成各零件工程圖與組合圖後, 將 uarm 組合件轉為 STL 格式後轉入 CoppeliaSim, 並安排以 GUI Slider 方式控制前三軸作動. 各組員需將零組件繪製過程與 CoppeliaSim 操控流程及心得。
 
 &lt;!-- PELICAN_END_SUMMARY --&gt;
 
 W8 uarm
 ----
- 為什麼推不上去
+tesssssst
+
 
 </t>
 <t tx="yen.20170108171605.1"></t>
