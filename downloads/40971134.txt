@@ -5,7 +5,7 @@
 <p>組員分別以Solvespace和NX及Onshape完成零件繪製</p>
 <p><span>繪製好uarm零件後做組合</span></p>
 <p><span>接下來將uarm組合件存為stl檔後轉入coppeliasim</span></p>
-<p><span><img alt="" height="630" src="/images/螢幕擷取畫面 (43).png" width="1008"></span></p>
+<p><span><img alt="" height="630" src="https://40971134.github.io/cd2022/images/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%20(43).png" width="1008"></span></p>
 <p><span>以GUI Slider方式控制前三軸作動</span></p>
 <p><span></span></p>
 <p></p>
