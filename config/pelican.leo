@@ -56,8 +56,8 @@
 <v t="leo.20170710022041.1"><vh>@path markdown</vh>
 <v t="leo.20180115115910.1"><vh>2020</vh>
 <v t="leo.20180423103639.1"><vh>2022 Spring CD 課程</vh>
-<v t="leo.20180423103656.1"><vh>@edit 20200813.md</vh></v>
-<v t="leo.20220415215423.1"><vh>@W8 cd2022ag1.md</vh></v>
+<v t="leo.20180423103656.1"><vh>@edit 20220813.md</vh></v>
+<v t="leo.20220511111241.1"><vh>@edit w11.md</vh></v>
 </v>
 </v>
 </v>
@@ -89,26 +89,6 @@ g.es("admin pelican Github 執行完畢")
 <t tx="leo.20180115093726.1"></t>
 <t tx="leo.20180115115910.1"></t>
 <t tx="leo.20180423103639.1"></t>
-<t tx="leo.20220415215423.1">@language md
----
-Title: W8 cd2022ag1
-Date: 2022-04-27 11:00
-Category: Misc
-Tags: 2022SpringCD
-Slug: midterm.html
-Author: 40923108
----
-
-各組依照零件檔案, 將組員分為三組, 分別以 Solvespace, NX (12, 1980 或 2008) 及 Onshape, 完成各零件工程圖與組合圖後, 將 uarm 組合件轉為 STL 格式後轉入 CoppeliaSim, 並安排以 GUI Slider 方式控制前三軸作動. 各組員需將零組件繪製過程與 CoppeliaSim 操控流程及心得。
-
-&lt;!-- PELICAN_END_SUMMARY --&gt;
-
-W8 uarm
-----
-tesssssst
-
-
-</t>
 <t tx="yen.20170108171605.1"></t>
 <t tx="yen.20170108171605.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
