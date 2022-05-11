@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>協同產品設計實習</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2022-05-11T11:30:46+08:00</updated><entry><title>W11</title><link href="./cd2022ag1%20w11.html.html" rel="alternate"></link><published>2022-05-11T11:00:00+08:00</published><updated>2022-05-11T11:30:46+08:00</updated><author><name>40923108</name></author><id>tag:None,2022-05-11:./cd2022ag1 w11.html.html</id><summary type="html">&lt;p&gt;本週將要進行兩項任務, 第一是確認各分組能夠有效在組長的分組倉儲中, 以非同步協同的方式進行 uArm 機械手臂場景的建置與操控, 第二則是從 CoppeliaSim 的兩種 XML 檔案格式, 了解如何透過程式方法建立 uArm 機械手臂場景.&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;本週將要進行兩項任務, 第一是確認各分組能夠有效在組長的分組倉儲中, 以非同步協同的方式進行 uArm 機械手臂場景的建置與操控, 第二則是從 CoppeliaSim 的兩種 XML 檔案格式, 了解如何透過程式方法建立 uArm 機械手臂場景.&lt;/p&gt;
+
+
+&lt;h2&gt;W11-1任務&lt;/h2&gt;
+&lt;p&gt;加入個人 w8-w10 協同設計過程所負責的項目內容與心得&lt;/p&gt;
+&lt;p&gt;組員推送到大組網站的內容：&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://40923108.github.io/cd2022ag1/content/40923101-2.html"&gt;40923101&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://40923108.github.io/cd2022ag1/content/40923108-2.html"&gt;40923108&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://40923108.github.io/cd2022ag1/content/40971134-2.html"&gt;40971134&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;Flutter&lt;/h2&gt;
+&lt;p&gt;Flutter 可以用來開發跨 Apple 與 Android 手機與平板上的 Apps&lt;/p&gt;</content><category term="Misc"></category><category term="2022SpringCD"></category></entry><entry><title>W8</title><link href="./cd2022ag1%20w8.html.html" rel="alternate"></link><published>2022-05-11T11:00:00+08:00</published><updated>2022-05-11T11:30:46+08:00</updated><author><name>40923108</name></author><id>tag:None,2022-05-11:./cd2022ag1 w8.html.html</id><summary type="html">&lt;p&gt;各組依照零件檔案, 將組員分為三組, 分別以 Solvespace, NX (12, 1980 或 2008) 及 Onshape, 完成各零件工程圖與組合圖後, 將 uarm 組合件轉為 STL 格式後轉入 CoppeliaSim, 並安排以 GUI Slider 方式控制前三軸作動. 各組員需將零組件繪製過程與 CoppeliaSim 操控流程及心得。&lt;/p&gt;
+</summary><content type="html">&lt;p&gt;各組依照零件檔案, 將組員分為三組, 分別以 Solvespace, NX (12, 1980 或 2008) 及 Onshape, 完成各零件工程圖與組合圖後, 將 uarm 組合件轉為 STL 格式後轉入 CoppeliaSim, 並安排以 GUI Slider 方式控制前三軸作動. 各組員需將零組件繪製過程與 CoppeliaSim 操控流程及心得。&lt;/p&gt;
+
+
+&lt;p&gt;繪圖軟體分配：&lt;/p&gt;</content><category term="Misc"></category><category term="2022SpringCD"></category></entry></feed>
