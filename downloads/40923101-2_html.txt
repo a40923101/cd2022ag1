@@ -1,146 +1,18 @@
-<h1>40923101</h1>
-<h2>W11</h2>
-<p>第一個任務是將上課筆記推上小組網站</p>
-<p>將<span>w8~w10的</span><span>協同作業過程所負責的項目內容與心得</span></p>
-<p><span>要記得上傳時要先將<span>圖片和wink改網址</span></span></p>
-<p><span>將code複製至小白窗存成文字檔</span></p>
-<p>接著推到小組網頁</p>
-<p>在之前就已經有在小組網頁推過資料</p>
-<p>所以可以很熟悉推送資料的過程</p>
-<p><span></span></p>
-<script>// <![CDATA[
-var winkVideoData = {
-dataVersion: 1,
-frameRate: 20,
-buttonFrameLength: 10,
-buttonFrameOffset: 5,
-frameStops: {
-},
-};
-// ]]></script>
-<div class="winkVideoContainerClass"><video width="960" height="540" class="winkVideoClass" data-dirname="/static" data-varname="winkVideoData">
-<source src="https://a40923101.github.io/cd2022/downloads/wink31.mp4" type="video/mp4" /></video>
-<div class="winkVideoOverlayClass"></div>
-<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
-<div class="winkVideoControlBarProgressLeftClass"></div>
-<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
-<div class="winkVideoControlBarProgressRightClass"></div>
-<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
-<div class="winkVideoControlBarProgressThumbClass"></div>
-</div>
-<div class="winkVideoPlayOverlayClass"></div>
-</div>
-<p>第二個任務是將檔案轉檔</p>
-<p>小組組員使用的軟體都不相同</p>
-<p>為了可以將零件整合</p>
-<p>所以我們將檔案存成<span>STL檔</span></p>
-<p><span>這樣就可以匯入其中的繪圖軟體</span></p>
-<p><span>也可以匯進CoppeliaSam裡面進行模擬操作</span></p>
-<p>先將MTB零件組合檔存成STL導入CoppeliaSam</p>
-<p>再將零件分解並連接起來</p>
-<p>存成<span>CoppeliaSim&nbsp;XLM的simple format檔</span></p>
+<h2>40923101 W13</h2>
+<p>這個禮拜下載CoppeliaSimEdu</p>
+<p>他是CoppeliaSim的3.0版</p>
+<p><img caption="false" height="281" src="https://a40923101.github.io/cd2022/images/53.png" width="500"></p>
+<p>MTB</p>
+<p>我是利用<span>NX12來</span>繪製出Pick and Place demo範例所需的零組件</p>
+<p>將零件組裝好後</p>
+<p>利用Coppeliasim模擬機械運轉</p>
+<p>目前零件畫好也也組裝完畢</p>
+<p>研究程式碼讓機械手臂可以正常運轉</p>
+<p>程式碼是參考之前學長姐的例子</p>
+<p><img caption="false" height="281" src="https://a40923101.github.io/cd2022/images/54.png" width="500"></p>
+<p><span>上課時老師也有講解到可以</span><span>啟用批次檔案</span></p>
+<p><span>有多版次NX近端設定</span></p>
+<p><span>像是12 1872 1980 2008的版本</span></p>
+<p>uarm組合檔</p>
+<p><img caption="false" height="281" src="https://a40923101.github.io/cd2022/images/55.png" width="500"></p>
 <p></p>
-<p><span></span></p>
-<p></p>
-<script>// <![CDATA[
-var winkVideoData = {
-dataVersion: 1,
-frameRate: 20,
-buttonFrameLength: 10,
-buttonFrameOffset: 5,
-frameStops: {
-},
-};
-// ]]></script>
-<div class="winkVideoContainerClass"><video width="960" height="540" class="winkVideoClass" data-dirname="/static" data-varname="winkVideoData" video="">
-<source src="https://a40923101.github.io/cd2022/downloads/wink32.mp4" type="video/mp4" /></video>
-<div class="winkVideoOverlayClass"></div>
-<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
-<div class="winkVideoControlBarProgressLeftClass"></div>
-<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
-<div class="winkVideoControlBarProgressRightClass"></div>
-<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
-<div class="winkVideoControlBarProgressThumbClass"></div>
-</div>
-<div class="winkVideoPlayOverlayClass"></div>
-<h2>W12</h2>
-<p><span>uarm 機械手臂所需的零件總共有155個</span></p>
-<p>若不加入重複使用的零件總數有58個</p>
-<p><img caption="false" height="281" src="https://a40923101.github.io/cd2022/images/48.png" width="500"></p>
-<p><img caption="false" height="281" src="https://a40923101.github.io/cd2022/images/49.png" width="500"></p>
-<p>M2X4 螺絲</p>
-<p>M3X4 内六角<span>圓頭</span><span>螺絲</span></p>
-<p>M3X5 内六角<span>圓頭</span><span>螺絲</span></p>
-<p>M3X5 平頭<span>螺絲</span></p>
-<p>M3X5 沉頭<span>螺絲</span></p>
-<p>M3X5 扁平<span>頭鐵鍍鎳</span><span>螺絲</span></p>
-<p>M3X5 <span>圓頭</span>黑色十字<span>螺絲</span></p>
-<p>M3X6 内六角圓頭<span>螺絲</span></p>
-<p>M3X15 雙通<span>螺絲</span></p>
-<p>M4X5 顶<span>螺絲</span></p>
-<p>M4X6 沉<span>頭</span><span>螺絲</span></p>
-<p>M4X7 平<span>頭</span><span>螺絲</span></p>
-<p>M4X10 平<span>頭</span><span>螺絲</span></p>
-<p>M4X15 平頭<span>螺絲</span></p>
-<p><span>MF84</span></p>
-<p>2mm導光柱</p>
-<p>2mm導熱硅胶片</p>
-<p>3Dprint轉接板</p>
-<p>5-13-4軸承</p>
-<p>6X2.5 磁鐵</p>
-<p>8.3X1.5 防滑墊</p>
-<p>前端通用件</p>
-<p>前端關節</p>
-<p>7mm 支撐柱</p>
-<p>3mm 鋁支撐柱</p>
-<p>三角形連桿軸承壓緊件</p>
-<p>三角形連桿</p>
-<p>絞鍊</p>
-<p>主臂關節2</p>
-<p>主臂關節1</p>
-<p>電機軸承支撐座_左側</p>
-<p>電機軸承支撐座_右側</p>
-<p>右側曲柄</p>
-<p>輸出軸</p>
-<p>右側連桿</p>
-<p>左側連桿</p>
-<p>4mm 鋁支撐柱</p>
-<p>減速箱上殼</p>
-<p><span>減速箱下殼</span></p>
-<p>L型連接件</p>
-<p>軸承支撐軸</p>
-<p>軸承支撐圈</p>
-<p>底座上蓋</p>
-<p>底座中間部分</p>
-<p>底座蓋</p>
-<p>磁编碼器PCB</p>
-<p>42進步電機</p>
-<p>塑料蓋板</p>
-<p>利用老師今天所教的可以使用py檔案來run</p>
-<p>就可以得知uarm機械手臂</p>
-<p>30%零件採steel製，其餘採<span>A</span><span>l</span><span>uminum製，總重量</span>約<span>2,2205kg</span></p>
-<p>全部零件採Aluminum<span>製，總重量<span>約1,412kg</span></span></p>
-<p>全部零件採steel製，<span>總重量</span><span>約4,1062kg</span><br><br></p>
-<p></p>
-<script>// <![CDATA[
-var winkVideoData = {
-dataVersion: 1,
-frameRate: 20,
-buttonFrameLength: 10,
-buttonFrameOffset: 5,
-frameStops: {
-},
-};
-// ]]></script>
-<div class="winkVideoContainerClass"><video width="960" height="540" class="winkVideoClass" data-dirname="/static" data-varname="winkVideoData" video="">
-<source src="https://a40923101.github.io/cd2022/downloads/wink33.mp4" type="video/mp4" /></video>
-<div class="winkVideoOverlayClass"></div>
-<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
-<div class="winkVideoControlBarProgressLeftClass"></div>
-<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
-<div class="winkVideoControlBarProgressRightClass"></div>
-<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
-<div class="winkVideoControlBarProgressThumbClass"></div>
-</div>
-<div class="winkVideoPlayOverlayClass"></div>
-</div>
