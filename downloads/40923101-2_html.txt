@@ -1,39 +1,17 @@
 <h2>40923101 W14</h2>
-<p>利用<span>Coppeliasim</span>模擬TMB運轉</p>
-<p>將方塊吸起來</p>
-<p>轉半圈在放下來</p>
-<p><a href="https://drive.google.com/drive/folders/1cxZ-1iEHpicxTs7F0EHx7J0nTv1P_Kqb?usp=sharing">MTB零件檔</a></p>
-<p><a href="https://drive.google.com/drive/folders/1p5Y3OrLOQpoUlDZraFn_VA3J-Hrj8Y6P?usp=sharing">MTB組合檔</a></p>
-<p><a href="https://drive.google.com/drive/folders/1QtjT5uATEoL0J2KkUbSmh_uEtDKQmmNj?usp=sharing">MTB CoppeliaSim模擬檔</a></p>
-<p><img alt="" height="281" src="/images/56.png" width="500"></p>
-<p><img alt="" height="281" src="/images/57.png" width="500"></p>
-<p>利用老師給的程式碼去修改一些部份</p>
-<p>使機械能購運轉</p>
-<p>在運轉前要記得零件動態關閉</p>
-<p><img alt="" height="281" src="/images/58.png" width="500"></p>
+<h2>W15</h2>
+<p>使用老師的程式，利用鍵盤來操作旋轉模擬</p>
+<p>就可以順時針及逆時針旋轉</p>
+<p>利用<span>UARM</span>來Tic-Tae-Toe遊戲模擬</p>
+<p><span>joint1，</span>L為順時針，K<span>為逆時針</span></p>
+<p><span>joint2，</span>J<span>為順時針，</span>H<span>為逆時針</span></p>
+<p><span>joint3，</span>G<span>為順時針，</span>F<span>為逆時針</span></p>
+<p><img alt="" height="281" src="/images/67.png" width="500"></p>
+<p><img alt="" height="281" src="/images/68.png" width="500"></p>
+<p><img alt="" height="281" src="/images/69.png" width="500"></p>
 <p></p>
-<script>// <![CDATA[
-var winkVideoData = {
-dataVersion: 1,
-frameRate: 20,
-buttonFrameLength: 10,
-buttonFrameOffset: 5,
-frameStops: {
-},
-};
-// ]]></script>
-<div class="winkVideoContainerClass"><video width="960" height="540" class="winkVideoClass" data-dirname="/static" data-varname="winkVideoData">
-<source src="https://a40923101.github.io/cd2022/downloads/wink34.mp4" type="video/mp4" /></video>
-<div class="winkVideoOverlayClass"></div>
-<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
-<div class="winkVideoControlBarProgressLeftClass"></div>
-<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
-<div class="winkVideoControlBarProgressRightClass"></div>
-<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
-<div class="winkVideoControlBarProgressThumbClass"></div>
-</div>
-<div class="winkVideoPlayOverlayClass"></div>
-</div>
+<p></p>
+<p></p>
 <script>// <![CDATA[
 var winkVideoData = {
 dataVersion: 1,
@@ -45,7 +23,7 @@ frameStops: {
 };
 // ]]></script>
 <div class="winkVideoContainerClass"><video width="960" height="540" class="winkVideoClass" data-dirname="/static" data-varname="winkVideoData" video="">
-<source src="/downloads/wink35.mp4" type="video/mp4" /></video>
+<source src="/downloads/wink38.mp4" type="video/mp4" /></video>
 <div class="winkVideoOverlayClass"></div>
 <div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
 <div class="winkVideoControlBarProgressLeftClass"></div>
@@ -55,74 +33,100 @@ frameStops: {
 <div class="winkVideoControlBarProgressThumbClass"></div>
 </div>
 <div class="winkVideoPlayOverlayClass"></div>
-<div class="winkVideoPlayOverlayClass"></div>
-<div class="winkVideoPlayOverlayClass"></div>
 </div>
 <p></p>
-<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">function sysCall_init() 
-    axis1=sim.getObject('/joint1')
-    axis2=sim.getObject('/joint2')
-    axis3=sim.getObject('/joint3')
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">function sysCall_init()
+    axis1=sim.getObject('./joint1')
+    axis2=sim.getObject('./joint2')
+    axis3=sim.getObject('./joint3')
     suctionPad=sim.getObject('/suctionPad')
-    MTB_Robot=sim.getObject("/base")
-    BaseFrame=sim.getObject("/BaseFrame")
-    block =sim.getObject("/block")
     rotation1 = 0
-    distance3 = 0
+    rotation2 = 0
+    rotation3 = 0
     deg = math.pi/180.
+    enableSuctionPad(true)
 end
-
-
+function enableSuctionPad(enable)
+    -- use the suctionPad object to pass the variable activity value
+    -- if enable = true, the activity = 'on'
+    if enable then
+        sim.writeCustomDataBlock(suctionPad,'activity','on')
+    else
+        sim.writeCustomDataBlock(suctionPad,'activity','off')
+    end
+end
 function sysCall_actuation() 
 --[[
-    rotation1 = rotation1 + 0.5*deg
+    rotation1 = rotation1 + 1*deg
     print(rotation1)
     sim.setJointPosition(axis1, -rotation1)
     sim.setJointPosition(axis2, -rotation1)
 ]]
-
     message, auxiliaryData=sim.getSimulatorMessage()
-        while message ~= -1 do
-            key=auxiliaryData[1]
-            sim.addStatusbarMessage('user press key:'..key)
-            if (message==sim.message_keypress) then
-               --if (auxiliaryData[1]==112) then --p activate the suction pad
-                if (auxiliaryData[1]==string.byte('p')) then
-                    -- if key p pressed activate the suction mode
-sim.setScriptSimulationParameter(sim.getScriptAssociatedWithObject(suctionPad),'active','true')
-                end -- if p
-                if (auxiliaryData[1]==113) then --q deactivate the suction pad
-                    -- if key q pressed deactivate the suction mode
-sim.setScriptSimulationParameter(sim.getScriptAssociatedWithObject(suctionPad),'active','false')
-                end -- if q
-                if (auxiliaryData[1]==114) then --r right turn in degree
-                    -- if key r pressed axis1 angle adds 5 degrees
-                     rotation1 = rotation1 + 5*deg
-                     sim.setJointPosition(axis1, rotation1)
-                end -- if r
-                if (auxiliaryData[1]==108) then --l left turn in degree
-                    -- if key l pressed axis1 angle substract 5 degrees
-                     rotation1 = rotation1 - 5*deg
-                     sim.setJointPosition(axis1, rotation1)
-                end -- if l
-                if (auxiliaryData[1]==100) then --d suction pad down
-                    -- if key d pressed axis3 will down 0.01 m
-                     distance3 = distance3 + 0.01
-                     sim.setJointPosition(axis3, distance3)
-                end -- if d
-                if (auxiliaryData[1]==117) then --u suction pad up
-                    -- if key u pressed axis3 will up 0.01 m
-                     distance3 = distance3 - 0.01
-                     sim.setJointPosition(axis3, distance3)
-                end -- if u
-                if (auxiliaryData[1]==99) then --c coordinate of block
-                    blockPosition = sim.getObjectPosition(block, BaseFrame)
-                    sim.addStatusbarMessage("coordinate:"..table_to_string(blockPosition))
-                end --if c
-           end  -- if
+    while message ~= -1 do
+        key=auxiliaryData[1]
+        sim.addStatusbarMessage('user press key:'..key)
+        if (message==sim.message_keypress) then
+           --if (auxiliaryData[1]==112) then --p activate the suction pad
+            if (auxiliaryData[1]==string.byte('p')) then
+                -- if key p pressed activate the suction mode
+--sim.setScriptSimulationParameter(sim.getScriptAssociatedWithObject(suctionPad),'active','true')
+                enableSuctionPad(true)
+            end -- if p
+            if (auxiliaryData[1]==string.byte('q')) then --q deactivate the suction pad
+                -- if key q pressed deactivate the suction mode
+--sim.setScriptSimulationParameter(sim.getScriptAssociatedWithObject(suctionPad),'active','false')
+                enableSuctionPad(false)
+            end -- if q
+            if (auxiliaryData[1]==string.byte('k')) then --k right turn in degree
+                -- if key k pressed axis1 angle adds 2 degrees
+                 rotation1 = rotation1 + 2*deg
+                 --sim.setJointPosition(axis1, rotation1)
+                 sim.setJointTargetPosition(axis1, rotation1)
+            end -- if k
+            if (auxiliaryData[1]==string.byte('l')) then --l left turn in degree
+                -- if key l pressed axis1 angle substract 2 degrees
+                 rotation1 = rotation1 - 2*deg
+                 --sim.setJointPosition(axis1, rotation1)
+                 sim.setJointTargetPosition(axis1, rotation1)
+            end -- if l
+-- for joint2 start ##########################################################
+            if (auxiliaryData[1]== string.byte("h")) then --r right turn in degree
+                -- if key r pressed axis1 angle adds 2 degrees
+                 rotation2 = rotation2 + 1*deg
+                 --sim.setJointPosition(axis2, rotation2)
+                 sim.setJointTargetPosition(axis2, rotation2)
+            end -- if k
+            if (auxiliaryData[1]==string.byte("j")) then
+                -- if key j pressed axis2 angle substract 2 degrees
+                 rotation2 = rotation2 - 1*deg
+                 --sim.setJointPosition(axis2, rotation2)
+                 sim.setJointTargetPosition(axis2, rotation2)
+            end -- if j
+-- for joint2 end ##########################################################
+-- for joint3 start ##########################################################
+            if (auxiliaryData[1]== string.byte("f")) then
+                -- if key f pressed axis3 angle adds 2 degrees
+                 rotation3 = rotation3 + 1*deg
+                 --sim.setJointPosition(axis3, rotation3)
+                 sim.setJointTargetPosition(axis3, rotation3)
+            end -- if f
+            if (auxiliaryData[1]==string.byte("g")) then
+                -- if key g pressed axis3 angle substract 2 degrees
+                 rotation3 = rotation3 - 1*deg
+                 --sim.setJointPosition(axis3, rotation3)
+                 sim.setJointTargetPosition(axis3, rotation3)
+            end -- if g
+-- for joint3 end ##########################################################
+            if (auxiliaryData[1]==99) then --c coordinate of block
+                blockPosition = sim.getObjectPosition(block, BaseFrame)
+                sim.addStatusbarMessage("coordinate:"..table_to_string(blockPosition))
+            end --if c
+       end  -- if
     message, auxiliaryData=sim.getSimulatorMessage()
-        end -- while
+    end -- while
 end -- function
+
 function sysCall_sensing() 
 --[[
     -- Read Proximity sensor (0= nothing detected, 1 = object detected)
@@ -158,8 +162,12 @@ function sysCall_sensing()
     
 ]]--
 end
-function sysCall_cleanup() 
-end 
+function sysCall_sensing()
+    -- put your sensing code here
+end
+function sysCall_cleanup()
+    -- do some clean-up here
+end
 -- Convert a lua table into a lua syntactically correct string
 function table_to_string(tbl)
     local result = "{"
@@ -168,7 +176,6 @@ function table_to_string(tbl)
         if type(k) == "string" then
             result = result.."[\""..k.."\"]".."="
         end
-
         -- Check the value type
         if type(v) == "table" then
             result = result..table_to_string(v)
@@ -192,8 +199,6 @@ function round(x, n)
     if x &gt;= 0 then x = math.floor(x + 0.5) else x = math.ceil(x - 0.5) end
     return x / n
 end
-
-
 function insertBox()
     -- Generate random numbers
     local rand1 = math.random()
@@ -229,7 +234,6 @@ function insertBox()
         table.insert(boolList,false)
     end
 end
-
-
+-- See the user manual or the available code snippets for additional callback functions and details
 </pre>
 <p></p>
