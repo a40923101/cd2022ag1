@@ -1,0 +1,35 @@
+<h2>W17</h2>
+<p>利用<span>UARM</span>來執行Tic-Tae-Toe遊戲模擬</p>
+<p>利用15周的作業來修改</p>
+<p>利用鍵盤來操作旋轉模擬</p>
+<p>我修改了老師的程式</p>
+<p>將操作按鍵改為我較熟悉的方式</p>
+<p><span>joint1，</span>L為順時針，K<span>為逆時針</span></p>
+<p><span>joint2，S</span><span>為順時針，F</span><span>為逆時針</span></p>
+<p><span>joint3，E</span><span>為順時針，D</span><span>為逆時針</span></p>
+<p><img caption="false" height="281" src="https://a40923101.github.io/cd2022/images/75.png" width="500"></p>
+<p><img caption="false" height="281" src="https://a40923101.github.io/cd2022/images/76.png" width="500"></p>
+<p><img caption="false" height="281" src="https://a40923101.github.io/cd2022/images/77.png" width="500"></p>
+<p></p>
+<script>// <![CDATA[
+var winkVideoData = {
+dataVersion: 1,
+frameRate: 20,
+buttonFrameLength: 10,
+buttonFrameOffset: 5,
+frameStops: {
+},
+};
+// ]]></script>
+<div class="winkVideoContainerClass"><video width="960" height="540" class="winkVideoClass" data-dirname="/static" data-varname="winkVideoData" video="">
+<source src="https://a40923101.github.io/cd2022/downloads/wink39.mp4" type="video/mp4" /></video>
+<div class="winkVideoOverlayClass"></div>
+<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
+<div class="winkVideoControlBarProgressLeftClass"></div>
+<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
+<div class="winkVideoControlBarProgressRightClass"></div>
+<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
+<div class="winkVideoControlBarProgressThumbClass"></div>
+</div>
+<div class="winkVideoPlayOverlayClass"></div>
+</div>
