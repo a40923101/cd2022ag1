@@ -1,4 +1,3 @@
-<h2>W12</h2>
 <div class="winkVideoControlBarProgressThumbClass"><span>本週透過上課時所給的程式碼，套用到NX程式裡，就可以跑出來顯示組合件裡的零件組和總重量。</span>所需的零件總共有155個。</div>
 <div class="winkVideoControlBarProgressThumbClass"><img alt="" height="540" src="/images/組合檔圖片.png" width="960"></div>
 <div class="winkVideoControlBarProgressThumbClass"></div>
