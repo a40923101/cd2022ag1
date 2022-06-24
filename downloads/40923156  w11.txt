@@ -1,0 +1,91 @@
+<h1>40923101</h1>
+分別以 Solvespace, NX (12, 1980 或 2008) 及 Onshape, 完成各零件工程圖與組合圖後, 將 uarm 組合件轉為 STL 格式後轉入 CoppeliaSim
+
+我分配到的零件是減速箱下蓋以及軸承支撐圖
+
+因為是用onshape繪製這次的uarm所以有些零件可以直接匯入
+
+但碰到組合件還是需要拆開重畫沒有辦法使用匯入的
+
+
+1)</span></p>
+<img alt="" height="281" src="https://zhilin-0817.github.io/cd2022/images/526.png" width="500"></span></p>
+2)</div>
+<div class="winkVideoControlBarProgressThumbClass"><img caption="false" src="https://zhilin-0817.github.io/cd2022/images/526-2png.png" width="500"></div>
+3)</div>
+<div class="winkVideoControlBarProgressThumbClass"><img alt="" src="https://zhilin-0817.github.io/cd2022/images/6-17--1.png" width="500"></div>
+
+
+<h3>block ui</h3>
+<p>w10_<span>block_ui</span><br><span style="color: #ff00ff; background-color: #ffff99;"></span></p>
+<p>上課內容影片註解</p>
+<script>// <![CDATA[
+var winkVideoData = {
+dataVersion: 1,
+frameRate: 20,
+buttonFrameLength: 10,
+buttonFrameOffset: 5,
+frameStops: {
+},
+};
+// ]]></script>
+<div class="winkVideoContainerClass"><video width="1056" height="594" class="winkVideoClass" data-dirname="WEEK10-1-wink-files" data-varname="winkVideoData" static="" video="">
+<source mp4="" src="https://zhilin-0817.github.io/cd2022/downloads/WEEK10-1.mp4" type="video/mp4" week10-1="" /></video>
+<div class="winkVideoOverlayClass"></div>
+<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
+<div class="winkVideoControlBarProgressLeftClass"></div>
+<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
+<div class="winkVideoControlBarProgressRightClass"></div>
+<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
+<div class="winkVideoControlBarProgressThumbClass"></div>
+</div>
+<div class="winkVideoPlayOverlayClass"></div>
+</div>
+
+<h3>nx integ</h3>
+<script>// <![CDATA[
+var winkVideoData = {
+dataVersion: 1,
+frameRate: 20,
+buttonFrameLength: 10,
+buttonFrameOffset: 5,
+frameStops: {
+},
+};
+// ]]></script>
+<div class="winkVideoContainerClass"><video width="1056" height="594" class="winkVideoClass" data-dirname="/static" data-varname="winkVideoData" video="">
+<source src="https://zhilin-0817.github.io/cd2022/downloads/wink%20-----10-2.mp4" type="video/mp4" /></video>
+<div class="winkVideoOverlayClass"></div>
+<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
+<div class="winkVideoControlBarProgressLeftClass"></div>
+<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
+<div class="winkVideoControlBarProgressRightClass"></div>
+<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
+<div class="winkVideoControlBarProgressThumbClass"></div>
+</div>
+<div class="winkVideoPlayOverlayClass"></div>
+</div>
+
+<h3>ssh</h3>
+<script>// <![CDATA[
+var winkVideoData = {
+dataVersion: 1,
+frameRate: 20,
+buttonFrameLength: 10,
+buttonFrameOffset: 5,
+frameStops: {
+},
+};
+// ]]></script>
+<div class="winkVideoContainerClass"><video width="1056" height="594" class="winkVideoClass" data-dirname="wink---10-3-wink-files" data-varname="winkVideoData" static="" video="">
+<source src="https://zhilin-0817.github.io/cd2022/downloads/wink---10-3.mp4" type="video/mp4" /></video>
+<div class="winkVideoOverlayClass"></div>
+<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
+<div class="winkVideoControlBarProgressLeftClass"></div>
+<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
+<div class="winkVideoControlBarProgressRightClass"></div>
+<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
+<div class="winkVideoControlBarProgressThumbClass"></div>
+</div>
+<div class="winkVideoPlayOverlayClass"></div>
+</div>
