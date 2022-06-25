@@ -1,0 +1,41 @@
+<h1>40923156 Online Exam</h1>
+<p><span>1.已知左側綠色底座的uArm機械手臂，其基座座標原點位於絕對座標(1.0, 0.25, 0)</span><span>，</span><span>啟動模擬後green_suctionpad_frame座標原點則位於 (0.22859,0.26047,0.36576)</span><span>，</span><span>請列出運算式說明</span><span>，</span><span>啟動模擬後 joint1</span><span>，</span><span>joint2 與 joint3 分別以逆時針旋轉5度後</span><span>，</span><span>求green_suctionpad_frame的絕對座標值</span></p>
+<p><span><img src="https://zhilin-0817.github.io/cd2022/images/06190003.png" alt="" width="500"></span></p>
+<p></p>
+<p><img src="https://zhilin-0817.github.io/cd2022/images/06190004.png" alt="" width="500"></p>
+<p></p>
+<p>2.已知左側 uarm 前方的紅色方塊頂端中心座標值為 (0.2, 0.4, 0.1), 請列出運算式說明左側 uarm 機械手臂的 joint1, joint2 與 joint3 該如何旋轉才能讓 end effector 的吸盤末端中心點移動至紅色方塊頂端中心?</p>
+<p><img src="https://zhilin-0817.github.io/cd2022/images/06190001.png" alt="" width="500"></p>
+<p><span>x:+0.2608 y:0.6202 z:0.3460</span></p>
+<p><span></span></p>
+<p><span></span></p>
+<p><span></span></p>
+<p><img src="https://zhilin-0817.github.io/cd2022/images/06190002.png" alt="" width="500"></p>
+<p><span>x:0.2079 y:+1.1202 z:+0.1078</span></p>
+
+
+<p>CoppeliaSim Python remote API 範例:</p>
+<p>利用 tkinter GUI 介面 slider 控制 uArm 機械手臂</p>
+<script>// <![CDATA[
+var winkVideoData = {
+dataVersion: 1,
+frameRate: 20,
+buttonFrameLength: 10,
+buttonFrameOffset: 5,
+frameStops: {
+},
+};
+// ]]></script>
+<div class="winkVideoContainerClass"><video width="1056" height="594" class="winkVideoClass" data-dirname="/static" data-varname="winkVideoData" video="">
+<source src="https://zhilin-0817.github.io/cd2022/downloads/w16-111.mp4" type="video/mp4" /></video>
+<div class="winkVideoOverlayClass"></div>
+<div class="winkVideoControlBarClass"><button class="winkVideoControlBarPlayButtonClass"></button> <button class="winkVideoControlBarPauseButtonClass"></button>
+<div class="winkVideoControlBarProgressLeftClass"></div>
+<div class="winkVideoControlBarProgressEmptyMiddleClass"></div>
+<div class="winkVideoControlBarProgressRightClass"></div>
+<div class="winkVideoControlBarProgressFilledMiddleClass"></div>
+<div class="winkVideoControlBarProgressThumbClass"></div>
+</div>
+<div class="winkVideoPlayOverlayClass"></div>
+</div>
+
